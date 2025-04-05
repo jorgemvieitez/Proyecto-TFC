@@ -1,0 +1,84 @@
+base: /api/
+
+NOTE: not sure if i'm actually gonna do authorization or just put username + hash of password in every request lol
+
+# LOGIN
+
+POST /login
+    username: String
+    password: String
+
+    201 - succeeded
+        Result: String [auth token]
+    401 - failed
+
+GET /logout [Authorized]
+
+    200 - succeeded
+
+# USERS
+
+GET /user/@id
+
+GET /self
+
+PUT /self
+
+POST /self/request-deletion
+    returns a deletion request token
+
+DELETE /self/@request_token
+    confirmation for deletion
+    requires an Authorization token AND your username + password
+
+# PROJECTS
+
+GET /project [Authorized]
+    filter: ?String
+
+    200 - some exist
+        Result: List [users]
+    404 - none exist
+
+GET /project/@id [Authorized]
+    @id: Id
+
+    200 - project exists and you have access to it
+        Result: Map [project object]
+    404 - project doesn't exist or you don't have access to it
+
+POST /project/
+
+PUT /project/@id
+
+DELETE /project/@id
+
+# PROJECT MEMBERS
+
+GET /project/@id/member
+
+POST /project/@id/member
+
+GET /project/@id/member/@id
+
+PUT /project/@id/member/@id
+    for changing permissions
+
+DELETE /project/@id/member/@id
+
+DELETE /project/@id/self
+
+# PROJECT CHANNELS
+
+GET /project/@id/channel
+
+GET /project/@id/channel/@id
+    * note - you can replace any instance of /project/@id/channel/@id with /channel/@pid/@cid
+
+POST /project/@id/channel
+
+PUT /project/@id/channel/@id
+
+DELETE /project/@id/channel/@id
+
+# TODO - specifics of the different kinds of project channels
