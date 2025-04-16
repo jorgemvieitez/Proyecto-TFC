@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
   <diagram name="Page-1" id="5aLL4nqbY_WshILkX2WQ">
-    <mxGraphModel dx="1387" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1626" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,16 +148,16 @@
         <mxCell id="EN4KUK31zbwaTVfTw5IQ-4" value="1:n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="705" y="588" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TuATmtCigT_hQQLbVhxg-1" value="1:n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="TuATmtCigT_hQQLbVhxg-1" value="1:n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="270" y="550" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TuATmtCigT_hQQLbVhxg-2" value="* almacenadas encriptadas?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="TuATmtCigT_hQQLbVhxg-2" value="* almacenadas encriptadas?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="735" y="358" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TuATmtCigT_hQQLbVhxg-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Diagrama ERD básico del diseño de la base de datos&lt;/h1&gt;&lt;div&gt;TFC Jorge Moreno, abr. 2025&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+        <mxCell id="TuATmtCigT_hQQLbVhxg-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Diagrama ERD básico del diseño de la base de datos&lt;/h1&gt;&lt;div&gt;TFC Jorge Moreno, abr. 2025&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="290" y="50" width="630" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TuATmtCigT_hQQLbVhxg-5" value="1:n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="TuATmtCigT_hQQLbVhxg-5" value="1:n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="570" y="688" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
