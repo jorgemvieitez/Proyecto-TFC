@@ -1,4 +1,4 @@
-base: /api/
+base: /api/ (?)
 
 NOTE: not sure if i'm actually gonna do authorization or just put username + hash of password in every request lol
 
@@ -81,4 +81,58 @@ PUT /project/@id/channel/@id
 
 DELETE /project/@id/channel/@id
 
-# TODO - specifics of the different kinds of project channels
+# MESSAGING
+
+GET /project/@id/chat/@id
+    como GET /project/@id/channel, pero devuelve 404 si no es de mensajes
+    * note - you can replace any instance of /project/@id/chat/@id with /chat/@pid/@cid
+
+GET /project/@id/chat/@id/message
+
+GET /project/@id/chat/@id/message/@id
+
+POST /project/@id/chat/@id/message
+
+PUT /project/@id/chat/@id/message/@id
+
+DELETE /project/@id/chat/@id/message/@id
+
+# DOCUMENT
+
+GET /project/@id/document/@id
+    como GET /project/@id/channel, pero devuelve 404 si no es documento
+    * note - you can replace any instance of /project/@id/document/@id with /document/@pid/@cid
+
+GET /project/@id/document/@id
+
+PUT /project/@id/document/@id
+
+# KANBAN
+
+GET /project/@id/kanban/@id
+    como GET /project/@id/channel, pero devuelve 404 si no es kanban
+    * note - you can replace any instance of /project/@id/kanban/@id with /kanban/@pid/@cid
+
+GET /project/@id/kanban/@id/category
+
+GET /project/@id/kanban/@id/category/@id
+
+POST /project/@id/kanban/@id/category
+
+PUT /project/@id/kanban/@id/category/@id
+
+DELETE /project/@id/kanban/@id/category/@id
+
+GET /project/@id/kanban/@id/element/
+
+GET /project/@id/kanban/@id/element/@id
+
+POST /project/@id/kanban/@id/element
+
+PUT /project/@id/kanban/@id/element/@id
+
+DELETE /project/@id/kanban/@id/element/@id
+
+POST /project/@id/kanban/@id/element/@id/category
+
+DELETE /project/@id/kanban/@id/element/@id/category
