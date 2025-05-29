@@ -60,6 +60,7 @@ GET /project/@id/member
 POST /project/@id/member
 
 GET /project/@id/member/@id
+    * note - you can replace any instance of /project/@id/member/@id with /member/@pid/@mid
 
 PUT /project/@id/member/@id
     for changing permissions
