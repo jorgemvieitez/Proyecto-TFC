@@ -1,0 +1,4 @@
+- Diagrama de clases de los modelos - describiendo sus campos
+- Explicación de la estructura del backend y documentación de las funciones
+- Explicación de la estructura del frontend
+- Explicación de Rust
